@@ -33,14 +33,6 @@ class _ProductListScreenState extends State<ProductListScreen> {
         title: Text('Product List'),
         actions: [
           IconButton(
-            icon: Icon(Icons.refresh),
-            onPressed: () {
-              final provider = Provider.of<ProductProvider>(context, listen: false);
-              provider.fetchProducts();
-            },
-            tooltip: 'Refresh Products',
-          ),
-          IconButton(
             icon: Icon(Icons.add),
             onPressed: () => Navigator.push(
               context,
