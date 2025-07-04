@@ -60,8 +60,12 @@ A full-stack CRUD application for managing products using **Node.js**, **Express
    flutter pub get
 3. **Run the app:**
    ```bash
+     flutter run
+### 🌐 API Base URL
+**The Flutter app connects to the backend at:**
+   ```bash
+   http://10.0.2.2:3000
 
-  flutter run
 
 
    
